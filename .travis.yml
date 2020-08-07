@@ -9,4 +9,7 @@ before_script:
 - npm install mocha --save-dev
 - npm install should --save-dev
 
+script:
+- npm test
+
 cache: npm
