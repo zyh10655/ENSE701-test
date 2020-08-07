@@ -4,4 +4,9 @@ node_js:
 - node
 - 'lts/*'
 
+before_script:
+- npm install mocha -g            
+- npm install mocha --save-dev
+- npm install should --save-dev
+
 cache: npm
