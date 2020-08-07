@@ -10,10 +10,20 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
+  "devDependencies": {
+    "vows": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zyh10655/ENSE701-test.git"
+  },
+  "engines": {
+    "node": ">= 0.4"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "vows test/*.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
